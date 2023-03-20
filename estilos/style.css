@@ -79,6 +79,7 @@ fieldset{
 }
 
 
+
 /* Articulos de quienes somos para todas las secciones donde se encuentra esta clase*/
 .articulos-historia{
     display: flex;
@@ -89,8 +90,8 @@ fieldset{
 .articulos-historia img{
     display: flex;
     padding: 30px;
-    width: 1800px;
-    height: 600px;
+    width: 1500px;
+    height: 400px;
     
 }
 
@@ -125,13 +126,14 @@ fieldset{
     height: 50px;
 }
 
-.lista-precios{
+.list-precios{
     padding: 30px;
     background-color:#343434;
     color: white;
     display: flex;
     justify-content: center; 
     align-items: center;
+    text-decoration:none;
 }
 
 /*esta clase aplica a todas las secciones donde se encuentre el iframe de google maps*/
@@ -177,6 +179,7 @@ fieldset{
 /*UBICACION*/
 
 /*CONTACTO*/
+
 .lista-contacto {
     background-color:white;
     color: #343434;
@@ -185,6 +188,28 @@ fieldset{
     font-size: 15px;
     padding: 20px;
     align-items: center;
+}
+
+/*FOOTER*/
+
+.rr-sswa{
+    padding: 30px;
+    background-color:#343434;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-decoration:none;
+}
+
+.rr-ssig{
+    padding: 30px;
+    background-color:#343434;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-decoration:none;
 }
 
 /*MEDIA QUERIES*/
@@ -202,7 +227,15 @@ fieldset{
 
 .articulos-historia{
    flex-direction: column;
- 
+
+}
+
+.articulos-historia img{
+    display: flex;
+    padding: 30px;
+    width: 450px;
+    height: 400px;
+    
 }
 
 }
