@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
-
+/*ESTILOS GENERALES*/
 *{
     padding: o;
     margin: 0;
@@ -30,7 +30,6 @@ h1{
     color: white;
     background-color: #e3e6db;
 }
-/*menu principal de navegación del todo el sitio*/
 
 .menu-nav{
     padding: 20px;
@@ -68,11 +67,7 @@ fieldset{
     width: 100%;
 }
 
-#video{
-    padding: 30px;
-}
-
-/* footer para todas las seccion con la clase .footer-redes*/
+/* estilo del footer para todas las seccion con la clase .footer-redes*/
 
 .footer-redes{
     padding: 20px;
@@ -83,9 +78,6 @@ fieldset{
     align-items: center;
 }
 
-
-
-/* Articulos de quienes somos para todas las secciones donde se encuentra esta clase*/
 .articulos-historia{
     display: flex;
     flex-direction:row;
@@ -97,8 +89,7 @@ fieldset{
     padding: 30px;
     width: 800px;
     height: 400px;
-    align-content: center;
-    
+    align-content: center;  
 }
 
 /*menu principal del sitio para todas las secciones*/
@@ -110,7 +101,6 @@ fieldset{
 }
 
 /*HOME*/
-/*inf.comecial HOME*/
 
 .carousel-item img{
     width: 1600px;
@@ -153,7 +143,6 @@ fieldset{
     text-decoration:none;
 }
 
-/*esta clase aplica a todas las secciones donde se encuentre el iframe de google maps*/
 .mapa-home{
     padding: 30px;
 }
@@ -261,7 +250,6 @@ fieldset{
    flex-direction: column;
 
 }
-
 .articulos-historia img{
     display: flex;
     padding: 30px;
