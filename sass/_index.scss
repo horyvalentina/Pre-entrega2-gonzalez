@@ -1,0 +1,83 @@
+.articulos-historia{
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+
+    img{
+        display: flex;
+        padding: 30px;
+        width: 800px;
+        height: 400px;
+        align-content: center;  
+    }
+         #parrafo-historia{
+            text-align: center;
+            font-size: 20px;
+            padding:20px
+    }
+    
+}
+.menu-categorias{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+    li {
+        list-style: none;
+        display:inline-block;
+        margin: 0px 10px;
+    }
+}
+.informacion-comercial{
+    padding: 20px;
+    background-color:#e3e6db;
+    color: $grisplomo;
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 150px;
+        height: 50px;
+    }
+}
+.carousel-item img{
+    width: 1600px;
+    height: 550px;
+}
+
+.titulo-articulo-home{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: $grisplomo;
+}
+
+.list-precios{
+    padding: 30px;
+    background-color:$grisplomo;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-decoration:none;
+}
+
+.mapa-home{
+    padding: 30px;
+}
+
+.direccion-home{
+    background-color: #e3e6db;
+    padding: 30px;
+    color: $grisplomo;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.lista-comercial{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
