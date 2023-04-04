@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+/*ESTILOS GENERALES*/
+*{
+    padding: o;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.titulos-principales{
+    color: white;
+    background-color: #e3e6db;
+}
+
+
+ul li {
+    list-style: none;
+    display:inline-block;
+    margin: 0px 10px;
+}
+
+ul li a{
+    color: #343434;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.titulo-clase{
+    text-align: center;
+}
+
+body{
+    background-color: #b7d0e1;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #b7d0e1;
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .menu-nav{
+            padding: 20px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+    }
+    .menu-nav :hover{
+        color:#b7d0e1
+    }
+         ul{
+            text-align: center;
+    }
+         
+}
+
+fieldset{
+    padding: 30px;
+    width: 100%;
+}
+
+/* estilo del footer para todas las seccion con la clase .footer-redes*/
+
+.footer-redes{
+    padding: 20px;
+    background-color:#343434;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articulos-historia{
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+
+    img{
+        display: flex;
+        padding: 30px;
+        width: 800px;
+        height: 400px;
+        align-content: center;  
+    }
+         #parrafo-historia{
+            text-align: center;
+            font-size: 20px;
+            padding:20px
+    }
+    
+}
+
+/*menu principal del sitio para todas las secciones*/
+.menu-categorias{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+    li {
+        list-style: none;
+        display:inline-block;
+        margin: 0px 10px;
+    }
+}
+
+/*HOME*/
+
+.carousel-item img{
+    width: 1600px;
+    height: 550px;
+}
+
+.titulo-articulo-home{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: #343434;
+}
+
+.informacion-comercial{
+    padding: 20px;
+    background-color:#e3e6db;
+    color: #343434;
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 150px;
+        height: 50px;
+    }
+}
+
+.list-precios{
+    padding: 30px;
+    background-color:#343434;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-decoration:none;
+}
+
+.mapa-home{
+    padding: 30px;
+}
+
+.direccion-home{
+    background-color: #e3e6db;
+    padding: 30px;
+    color: #343434;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.lista-comercial{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+/* GALERIA*/
+
+.galeria-trabajos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    grid-row-gap: 20px ;
+    justify-items: center;
+    margin-top: 30px;
+    align-items: center;
+    margin-block-end: 30px;
+    
+    img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+/*CONTACTO*/
+
+.lista-contacto {
+    background-color:white;
+    color: #343434;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 20px;
+    align-items: center;
+}
+
+/*FOOTER*/
+
+.rr-sswa{
+    padding: 30px;
+    background-color:#343434;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-decoration:none;
+}
+
+.rr-ssig{
+    padding: 30px;
+    background-color:#343434;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-decoration:none;
+}
+
+/*MEDIA QUERIES*/
+/*tablet*/
+@media only screen and (max-width:768px){
+    .lista-comercial{
+        padding: 20px;
+        font-size: 15px;
+    }
+    .articulos-historia img{
+        display: flex;
+        padding: 30px;
+        width: 350px;
+        height: 200px;
+        
+    }
+    #parrafo-historia{
+        text-align: center;
+        font-size: 15px;
+
+    }
+    .galeria-trabajos{
+        padding: 30px;
+    }
+}
+
+/*mobile*/
+@media only screen and (max-width:576px){
+.lista-comercial{
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.articulos-historia{
+   flex-direction: column;
+
+}
+.articulos-historia img{
+    display: flex;
+    padding: 30px;
+    width: 500px;
+    height: 400px;
+    
+}
+.carousel-item{
+    width: 100%;
+    height: 400px
+}
+.galeria-trabajos{
+    padding: 30px;
+    grid-template-columns: repeat(2,1fr)
+}
+
+}
