@@ -1,0 +1,24 @@
+.galeria-trabajos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    grid-row-gap: 20px ;
+    justify-items: center;
+    margin-top: 30px;
+    align-items: center;
+    margin-block-end: 30px;
+       
+}
+
+/*MIXIN*/
+
+@mixin dimensiones ($width, $height) {
+    width: $width;
+    height: $height;
+
+}
+
+.galeria-trabajos img{
+    @include dimensiones(250px, 250px)
+}
