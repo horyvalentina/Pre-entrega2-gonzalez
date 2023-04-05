@@ -13,7 +13,9 @@
          #parrafo-historia{
             text-align: center;
             font-size: 20px;
-            padding:20px
+            padding:20px;
+            color: #343434;
+
     }
     
 }
@@ -30,15 +32,15 @@
     }
 }
 .informacion-comercial{
-    padding: 20px;
+    padding: 10px;
     background-color:#e3e6db;
-    color: $grisplomo;
+    color: #343434;
     display: flex;
     justify-content: center;
 
     img{
         width: 150px;
-        height: 50px;
+        height: 70px;
     }
 }
 .carousel-item img{
@@ -50,12 +52,12 @@
     padding: 30px;
     display: flex;
     justify-content: center;
-    color: $grisplomo;
+    color: #343434;
 }
 
 .list-precios{
     padding: 30px;
-    background-color:$grisplomo;
+    background-color: #343434;
     color: white;
     display: flex;
     justify-content: center; 
@@ -70,7 +72,7 @@
 .direccion-home{
     background-color: #e3e6db;
     padding: 30px;
-    color: $grisplomo;
+    color: #343434;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -81,3 +83,5 @@
     display: flex;
     font-size: 20px;
 }
+
+   
