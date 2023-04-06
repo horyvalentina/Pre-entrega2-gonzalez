@@ -23,7 +23,6 @@ h1{
     background-color: #e3e6db;
 }
 
-
 ul li {
     list-style: none;
     display:inline-block;
@@ -41,14 +40,14 @@ ul li a{
 }
 
 body{
-    background-color: $azulfondo;
+    background-color: $azulfondos;
     font-family: 'Quicksand', sans-serif;
 }
 
 header{
     position: sticky;
     top: 0;
-    background-color: $azulfondo;
+    background-color: $azulfondos;
     .logo{
         display: flex;
         justify-content: center;
@@ -60,7 +59,7 @@ header{
             justify-content: center;
     }
     .menu-nav :hover{
-        color:$azulfondo
+        color:$azulfondos
     }
          ul{
             text-align: center;
