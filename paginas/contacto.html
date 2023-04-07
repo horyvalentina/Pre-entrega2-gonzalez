@@ -28,26 +28,33 @@
     </header>
     <main>
         <h1 class="titulos-principales">NOBADENT: TU LABORATORIO DENTAL, CONTACTANOS</h1>
-        <form>
-            <fieldset>
-                <legend>Dejanos tus datos y nos pondremos en contacto</legend>
-                <label for="nombre">Nombre y apellido</label>
-                <input type="text" name="nombre">
-                <label for="nombre">Número de teléfono</label>
-                <input type="number" name="number">
-                <label for="nombre">Correo electrónico</label>
-                <input type="text" name="mail">
-                <label for="nombre">Dirección del consultorio odontológico</label>
-                <input type="text" name="direccion">
-                <input type="reset" value="Limpiar el formulario"/>
-                <input type="submit" value="Enviar información"/>
-            </fieldset>
-        </form>
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Correo electrónico:</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputAddress" class="form-label">Dirección:</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Escribí acá tu dirección.">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Nombre:</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Apellido:</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            </div>
+            <div class="col-md-6">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
         <ul class="lista-contacto">
-            <img src="../imagenes/icono-instagram.png" alt=""><li>Instagram:@nobadent</li>
-            <img src="../imagenes/icono-telefono.png" alt=""><li>Número de teléfono:341 123 45 67</li>
-            <img src="../imagenes/icono-whatsapp.png" alt=""><li>Whatsapp:341 123 45 67 </li>
-            <img src="../imagenes/icono-mail.png" alt=""><li>Mail:nobadent@gmail.com</li>
+            <img src="../imagenes/icono-instagram.png" alt=""><li>@nobadent</li>
+            <img src="../imagenes/icono-telefono.png" alt=""><li>341 123 45 67</li>
+            <img src="../imagenes/icono-whatsapp.png" alt=""><li>341 123 45 67 </li>
+            <img src="../imagenes/icono-mail.png" alt=""><li>nobadent@gmail.com</li>
         </ul>
         <div>
             <p class="direccion-home">
