@@ -102,13 +102,6 @@ header{
         padding: 20px;
         font-size: 15px;
     }
-    .articulos-historia img{
-        display: flex;
-        padding: 30px;
-        width: 350px;
-        height: 200px;
-        
-    }
     #parrafo-historia{
         text-align: center;
         font-size: 15px;
@@ -134,17 +127,8 @@ header{
     flex-direction: column;
     font-size: 15px;
 }
-
 .articulos-historia{
    flex-direction: column;
-
-}
-.articulos-historia img{
-    display: flex;
-    padding: 30px;
-    width: 500px;
-    height: 400px;
-    
 }
 .carousel-item{
     width: 100%;
